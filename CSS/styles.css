@@ -108,16 +108,19 @@ body{
      width: 75px;
      z-index: -1;
 }
-/* About */
-/* .about{
-    /* border: 2px solid black; 
-    height: 100vh;
+/*  */
+.con2{
+    height: 90vh;
     width: 1290px;
     margin-top: 50px;
-    /* background-image: linear-gradient(to bottom right, rgb(202, 240, 248), rgb(255, 255, 255)); 
-} */
+}
+.ski{
+    background-image: linear-gradient(#caf0f8,rgb(255, 255, 255));
+    top: 50px;
+    display: inline-block;
 
-#about{
+}
+ #about{
     border: 2px solid black;
     height: 100vh;
     width: 1260px;
@@ -127,24 +130,89 @@ body{
 }
 .about-p{
     position: relative;
-    top: 70px;
+    top: 50px;
     margin: 10px;
     padding: 30px;
-    font-size: 30px; 
+    font-size: 20px; 
     text-align: justify;  
 }
-.about-h3{
+.skills-h3{
     position: relative;
-    top: 30px;
+    top: 0;
     margin: 10px;
-    padding: 30px;
-    font-size: 30px; 
-    text-align: justify;  
+    font-size: 20px; 
+    text-align: center;
+ 
 }
-.about-tools{}
+/* figma */
 .figma{
-    width: 50px;
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 10%;
+    border: 2px solid black; 
 }
+.figma-img{
+    width: 5%;
+    margin: 0 30px;
+    float: left;
+}
+.f-p{
+    position: relative;
+    font-size: 20px; 
+    text-align: left;
+}
+/* xd */
 .xd{
-    width: 50px;
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 10%;
+    border: 2px solid black; 
+}
+.xd-img{
+    width: 8%;
+    margin: 0 30px;
+    float: left;
+}
+.xd-p{
+    position: relative;
+    font-size: 20px; 
+    text-align: left;
+}
+/* photoshop */
+.photoshop{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 10%;
+    border: 2px solid black; 
+}
+.photoshop-img{
+    width: 5%;
+    margin: 0 30px;
+    float: left;
+}
+.p-p{
+    position: relative;
+    font-size: 20px; 
+    text-align: left;
+}
+/* html */
+.html{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 10%;
+    border: 2px solid black; 
+}
+.html-img{
+    width: 8%;
+    margin: 0 30px;
+    float: left;
+}
+.h-p{
+    position: relative;
+    font-size: 20px; 
+    text-align: left;
 }
