@@ -1,11 +1,27 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    
 }
 body{
     border: 2px solid black;
-    padding: 0 50px;
+    /* padding: 0 50px; */
 }
 .navi{
+   list-style-type: none;
+   background-image: linear-gradient(rgb(2, 56, 118),rgb(255, 255, 255,0.2));
+   height: 50px;
+   width:1920;
 
+}
+.navi ul{
+    font-size: 62px;
+    align-items: right;
+
+}
+.navi li{
+    display: inline;
+    color: black;
+    padding: 10px 40px;
 }
