@@ -260,33 +260,14 @@ body{
 }
 .cont{
     position: relative;
-    top: 90px;
+    top: 50px;
 }
 /* left-contact */
 .left-c{
   padding: 20px;
   margin: 30px;
 }
-.contact-inputs{
-    width: 300px;
-    height: 40px;
-    border: none;
-    outline: none;
-    padding-left: 25px;
-    font-weight: 500;
-    /* color: #063d5a; */
-     margin: 5PX;
-    background-color: #ceeaf9;
-    border-radius: 25px;
-}
-.contact-inputs:focus{
-    border: 2px solid rgb(5, 98, 137);
-}
-.left-c textarea{
-    height: 140px;
-    padding-top: 15px;
-    border-radius: 20px;
-}
+
 .conatct-left-title h2{
     font-weight: 600;
     color: #00527e;
@@ -307,11 +288,47 @@ body{
    border-radius: 10px;
    margin-bottom: 20px;
 }
-/* 
-                                    <input type="email"  name="email" placeholder="Your E-mail" class="contact-inputs" required><br>
-                                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea><br>
-                                    <button type="submit">Submit</button>
-                         </form> */
+
+.contact-inputs{
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    /* color: #063d5a; */
+     margin: 5PX;
+    background-color: #ceeaf9;
+    border-radius: 25px;
+}
+.contact-inputs:focus{
+    border: 2px solid rgb(32, 158, 212);
+}
+.contact-inputs:placeholder{
+    color: lightgray;
+    font : 100px;
+}
+
+.left-c textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+/* contact button */
+.contact-inputsb{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: none;
+    width:300px;
+    border-radius: 50px;
+    background-image: linear-gradient(#00527e,#3aabe8);
+    cursor: pointer;
+}
 /* right-contact */
 .img-contact{
     position: relative;
