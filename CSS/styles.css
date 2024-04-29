@@ -268,16 +268,45 @@ body{
   margin: 30px;
 }
 .contact-inputs{
-    margin: 10PX;
     width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    /* color: #063d5a; */
+     margin: 5PX;
+    background-color: #ceeaf9;
+    border-radius: 25px;
 }
-.conatct-left-title{
+.contact-inputs:focus{
+    border: 2px solid rgb(5, 98, 137);
+}
+.left-c textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.conatct-left-title h2{
     font-weight: 600;
-    color: #65bae8;
-    font-size: 25px;   
+    color: #00527e;
+    font-size: 35px;   
     margin-bottom: 5px;
 }
-
+.conatct-left-title h4{
+    font-weight: 600;
+    color: #046fa8;
+    font-size: 20px;   
+    margin-bottom: 5px;
+}
+.conatct-left-title hr{
+   border: none;
+   width: 120px;
+   height: 5px;
+   background-color: #00527e;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
 /* 
                                     <input type="email"  name="email" placeholder="Your E-mail" class="contact-inputs" required><br>
                                     <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea><br>
