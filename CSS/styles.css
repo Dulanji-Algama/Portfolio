@@ -115,10 +115,10 @@ body{
     margin-top: 50px;
 }
 .ski{
-    background-image: linear-gradient(#caf0f8,rgb(255, 255, 255));
-    top: 50px;
+    background-image: linear-gradient(#caf0f8,rgb(129, 195, 214));
+    top: 0;
     display: inline-block;
-
+    height: 70vh;
 }
 /* about heading */
 .about-h2{
@@ -160,7 +160,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    /* border: 2px solid black;  */
+    border: 2px solid black; 
     justify-content: center;
 }
 .figma-img{
@@ -171,7 +171,7 @@ body{
 }
 .f-p{
     position: relative;
-    font-size: 20px; 
+    font-size: 15px; 
     text-align: left;
 }
 /* xd */
@@ -180,7 +180,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    /* border: 2px solid black;  */
+    border: 2px solid black; 
 }
 .xd-img{
     width: 8%;
@@ -190,7 +190,7 @@ body{
 }
 .xd-p{
     position: relative;
-    font-size: 20px; 
+    font-size: 15px; 
     text-align: left;
 }
 /* photoshop */
@@ -199,7 +199,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    /* border: 2px solid black;  */
+    border: 2px solid black; 
 }
 .photoshop-img{
     width: 8%;
@@ -218,7 +218,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    /* border: 2px solid black;  */
+    border: 2px solid black; 
 }
 .html-img{
     width: 7%;
@@ -236,7 +236,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    /* border: 2px solid black;  */
+    border: 2px solid black; 
 }
 .css-img{
     width: 7%;
