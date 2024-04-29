@@ -251,3 +251,41 @@ body{
     width: 1290px;
     margin-top: 50px;
 }
+
+/* contact */
+.con5{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cont{
+    position: relative;
+    top: 90px;
+}
+/* left-contact */
+.left-c{
+  padding: 20px;
+  margin: 30px;
+}
+.contact-inputs{
+    margin: 10PX;
+    width: 300px;
+}
+.conatct-left-title{
+    font-weight: 600;
+    color: #65bae8;
+    font-size: 25px;   
+    margin-bottom: 5px;
+}
+
+/* 
+                                    <input type="email"  name="email" placeholder="Your E-mail" class="contact-inputs" required><br>
+                                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea><br>
+                                    <button type="submit">Submit</button>
+                         </form> */
+/* right-contact */
+.img-contact{
+    position: relative;
+    width: 500px;
+    left: 60px;
+}
