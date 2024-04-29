@@ -56,6 +56,8 @@ body{
     text-align: left;
     top: -20px;
     color: #03375e;
+    overflow: hidden;
+
 }
 .my-name{
     position: relative;
@@ -98,16 +100,6 @@ body{
      z-index: -1;
      /* right: -170px; */
 }
-.circle2{
-    position: relative;
-    top: 20px;
-    width: 100%;
-    border-radius: 50%;
-    border: #0077b6;
-    height: 75px;
-     width: 75px;
-     z-index: -1;
-}
 /* about */
 .con2{
     height: 90vh;
@@ -119,6 +111,8 @@ body{
     top: 0;
     display: inline-block;
     height: 70vh;
+    font-family: "Open Sans", sans-serif;
+
 }
 /* about heading */
 .about-h2{
@@ -148,19 +142,16 @@ body{
     top: 0;
     margin: 30px 10px 10px 10px ;
     font-size: 20px; 
-    text-align: left;}
-/* 
-.ski-set{
-        margin:40px 50px;
-} */
+    text-align: left;
+}
+
 /* figma */
 .figma{
-    /* margin: 0 100px; */
     position: relative;
     width: 70%;
     left: 15%;
     top: 10%;
-    border: 2px solid black; 
+    /* border: 2px solid black;  */
     justify-content: center;
 }
 .figma-img{
@@ -171,7 +162,7 @@ body{
 }
 .f-p{
     position: relative;
-    font-size: 15px; 
+    font-size: 13px; 
     text-align: left;
 }
 /* xd */
@@ -180,7 +171,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    border: 2px solid black; 
+    /* border: 2px solid black;  */
 }
 .xd-img{
     width: 8%;
@@ -190,7 +181,7 @@ body{
 }
 .xd-p{
     position: relative;
-    font-size: 15px; 
+    font-size: 13px; 
     text-align: left;
 }
 /* photoshop */
@@ -199,7 +190,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    border: 2px solid black; 
+    /* border: 2px solid black;  */
 }
 .photoshop-img{
     width: 8%;
@@ -209,7 +200,7 @@ body{
 }
 .p-p{
     position: relative;
-    font-size: 15px; 
+    font-size: 13px; 
     text-align: left;
 }
 /* html */
@@ -218,7 +209,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    border: 2px solid black; 
+    /* border: 2px solid black;  */
 }
 .html-img{
     width: 7%;
@@ -227,7 +218,7 @@ body{
 }
 .h-p{
     position: relative;
-    font-size: 15px; 
+    font-size: 13px; 
     text-align: left;
 }
 /* CSS */
@@ -236,7 +227,7 @@ body{
     width: 70%;
     left: 15%;
     top: 10%;
-    border: 2px solid black; 
+    /* border: 2px solid black;  */
 }
 .css-img{
     width: 7%;
@@ -245,7 +236,7 @@ body{
 }
 .c-p{
     position: relative;
-    text-align: left;
+    font-size: 13px; 
     text-align: left;
 }
 
