@@ -47,7 +47,6 @@ body{
     height: 100vh;
     width: 1290px;
     margin-top: 50px;
-    /* background-image: linear-gradient(to bottom right, rgb(202, 240, 248), rgb(255, 255, 255)); */
 }
 
 #hello{
@@ -127,6 +126,9 @@ body{
     text-align: left;
     top: -20px;
     color: #03375e;
+    background-image:url(../IMG/bg.png);
+    background-repeat: no-repeat;
+
 }
 .about-p{
     position: relative;
@@ -134,7 +136,8 @@ body{
     margin: 10px;
     padding: 30px;
     font-size: 20px; 
-    text-align: justify;  
+    text-align: justify; 
+    font-weight: 700;
 }
 .skills-h3{
     position: relative;
@@ -266,6 +269,8 @@ body{
 .left-c{
   padding: 20px;
   margin: 30px;
+  top: 70px;
+
 }
 
 .conatct-left-title h2{
@@ -286,52 +291,53 @@ body{
    height: 5px;
    background-color: #00527e;
    border-radius: 10px;
-   margin-bottom: 20px;
+   margin-bottom: 50px;
+}
+/* p */
+.contact p{
+    font-weight: 100;
+    color: #00527e;
+    font-size: 15px;   
+    margin-bottom: 5px;
+    margin: 20px;
+    font-family: 'Pacifico', cursive;
+
 }
 
-.contact-inputs{
-    width: 300px;
-    height: 40px;
-    border: none;
-    outline: none;
-    padding-left: 25px;
-    font-weight: 500;
-    /* color: #063d5a; */
-     margin: 5PX;
-    background-color: #ceeaf9;
-    border-radius: 25px;
-}
-.contact-inputs:focus{
-    border: 2px solid rgb(32, 158, 212);
-}
-.contact-inputs:placeholder{
-    color: lightgray;
-    font : 100px;
-}
 
-.left-c textarea{
-    height: 140px;
-    padding-top: 15px;
-    border-radius: 20px;
-}
-/* contact button */
-.contact-inputsb{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding: 15px 30px;
-    font-size: 16px;
-    color: white;
-    gap: 10px;
-    border: none;
-    width:300px;
-    border-radius: 50px;
-    background-image: linear-gradient(#00527e,#3aabe8);
-    cursor: pointer;
-}
 /* right-contact */
 .img-contact{
     position: relative;
     width: 500px;
     left: 60px;
 }
+/* footer */
+.con6{
+    height: 40vh;
+    text-align: center;
+    border: 2px solid black;
+    background-image: linear-gradient(rgb(2, 52, 114),rgb(56, 130, 234));
+    /* background-image: url(../IMG/socialmedia.svg); */
+}
+
+.social-icon{
+    position: relative;
+    top: 20px;
+    width: 80px;
+    margin: 50px;
+
+}
+.li{
+    fill: white;
+}
+.cen{
+    position: relative;
+    top: 10px;
+    color: white;
+}
+/* div class="social-icon-container">
+        <a href="https://www.linkedin.com/in/dulanji-algama-26809919b/"><img src="img/linkedin.svg" alt="LinkedIn icon" class="social-icon"></a>
+        <a href="https://www.behance.net/dulanjialgama"><img src="img/behance.svg" alt="Behance icon" class="social-icon"></a>
+        <a href="https://github.com/Dulanji-Algama"><img src="img/github.svg" alt="Github icon" class="social-icon"></a>
+      </div>
+        <p class="cen">designed by dulanji algama 2024</p> */
