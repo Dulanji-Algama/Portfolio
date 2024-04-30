@@ -41,6 +41,12 @@ body{
     font-weight: 900;
 
 }
+.navi li a:hover{
+    color: white;
+}
+.navi li a:active{
+    color: #0077b6;
+}
 /* height:555px- for web page height */
 .con1{
     height: 100vh;
@@ -210,7 +216,7 @@ body{
     margin-right: 25px;
     float: left;
 }
-.p-p{
+.ph-p{
     position: relative;
     font-size: 13px; 
     text-align: left;
