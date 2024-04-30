@@ -47,6 +47,9 @@ body{
 .navi li a:active{
     color: #0077b6;
 }
+.navi li a:focus{
+    color: #caf0f8;
+}
 /* height:555px- for web page height */
 .con1{
     height: 100vh;
