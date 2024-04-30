@@ -8,14 +8,14 @@ html{
     height: 100%;
 }
 body{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 1248px;
     font-family: 'Prata', serif;
 }
 .navi{
    background-image: linear-gradient(#0077b6,rgb(255, 255, 255,0.2));
    height: 60px;
-   width: 1270px;
+   width: 1290px;
    list-style-type: none;
    justify-content: center;
    position: fixed;
@@ -43,9 +43,7 @@ body{
 }
 /* height:555px- for web page height */
 .con1{
-    /* border: 2px solid black; */
     height: 100vh;
-    width: 1290px;
     margin-top: 50px;
 }
 
@@ -244,14 +242,14 @@ body{
 
 /* Projects */
 #projects{
-    height: 90vh;
-    width: 1290px;
+    height: 140vh;
+    width: 1260px;
     margin-top: -20px;
     background-image: linear-gradient(#caf0f8,rgb(255, 255, 255));
+    /* border: 2px solid black; */
 
 }
 .con3{
-    /* background-image: linear-gradient(180deg,rgb(169, 225, 241),lightblue); */
     padding-top: 20px;
 }
 
@@ -272,7 +270,7 @@ body{
 }
 
 /* project 1 */
-.p1-img{
+.p-img{
     position: relative;
     width: 300px;
     border-radius: 20px;
@@ -281,7 +279,7 @@ body{
     box-shadow: 1px 1px 3px 2px gray;
 
 }
-.p1-h2{
+.p-h2{
     position: relative;
         font-weight: 800;
         color: #00527e;
@@ -290,7 +288,7 @@ body{
 }
 
 
-.p1-p{
+.p-p{
     font-size: 15px;
     text-align: justify;
     text-justify: inter-word;
@@ -300,50 +298,13 @@ body{
 }
 .pro-link{
     font-size: 14px;
-    color: rgb(149, 156, 168) ;
+    color: rgb(34, 0, 255) ;
     font-family: "Inconsolata", monospace;
 
 
 }
-/* project 02 */
-/* project 1 */
-.p2-img{
-    position: relative;
-    width: 300px;
-    border-radius: 20px;
-    border: none;
-    right: -100px;
-    box-shadow: 1px 1px 3px 2px gray;
-
-}
-.p2-h2{
-    position: relative;
-        font-weight: 800;
-        color: #00527e;
-        font-size: 25px;   
-        margin: 5px;
-}
-/* breakjbcaucb */
-.proicd{
-    left: 20px;
-}
-/*  */
-
-.p2-p{
-    font-size: 15px;
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 4vh;
-    font-family: "Inconsolata", monospace;
-    margin: 20px 120px 20px 2px;
-}
-.pro-link{
-    font-size: 14px;
-    color: rgb(149, 156, 168) ;
-    font-family: "Inconsolata", monospace;
 
 
-}
 /* contact */
 .con4{
     height: 90vh;
@@ -408,26 +369,37 @@ body{
     left: 60px;
 }
 /* footer */
-.con6{
-    height: 40vh;
-    text-align: center;
-    border: 2px solid black;
-    background-image: linear-gradient(rgb(2, 52, 114),rgb(56, 130, 234));
-    /* background-image: url(../IMG/socialmedia.svg); */
-}
 
+
+footer{
+	width: 1260px;
+	min-height: 220px;
+	background: url('../img/socialmedia.svg') ;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: center;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+	background-color: #03045e;
+}
 .social-icon{
-    position: relative;
-    top: 20px;
-    width: 80px;
-    margin: 50px;
+	height : 60px;
+	margin: 10px 20px;
+}
+
+.cen{
+        position: relative;
+        top: 43px;
+        left: 30px;
+        color: white;
+
 
 }
-.li{
-    fill: white;
-}
-.cen{
-    position: relative;
-    top: 10px;
-    color: white;
+.social-icon-container{
+	text-align: center;
+	
+
 }
