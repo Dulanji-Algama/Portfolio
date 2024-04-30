@@ -252,28 +252,26 @@ body{
 }
 .con3{
     /* background-image: linear-gradient(180deg,rgb(169, 225, 241),lightblue); */
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .projects-h2{
     font-weight: 600;
     color: #00527e;
     font-size: 35px;   
-    margin-bottom: 5px;
-    margin: 20px 50px;
+    margin: 70px 50px 5px 20px;
 }
 .pro{
     border: none;
-    margin: 20px 50px;
+    margin: 20px 50px 80px 20px;
     height: 5px;
     background-color: #00527e;
     border-radius: 10px;
-    margin-bottom: 50px;
-    width: 120px;
+    width: 60px;
 
 }
 
-
+/* project 1 */
 .p1-img{
     position: relative;
     width: 300px;
@@ -293,6 +291,45 @@ body{
 
 
 .p1-p{
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 4vh;
+    font-family: "Inconsolata", monospace;
+    margin: 20px 120px 20px 2px;
+}
+.pro-link{
+    font-size: 14px;
+    color: rgb(149, 156, 168) ;
+    font-family: "Inconsolata", monospace;
+
+
+}
+/* project 02 */
+/* project 1 */
+.p2-img{
+    position: relative;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    right: -100px;
+    box-shadow: 1px 1px 3px 2px gray;
+
+}
+.p2-h2{
+    position: relative;
+        font-weight: 800;
+        color: #00527e;
+        font-size: 25px;   
+        margin: 5px;
+}
+/* breakjbcaucb */
+.proicd{
+    left: 20px;
+}
+/*  */
+
+.p2-p{
     font-size: 15px;
     text-align: justify;
     text-justify: inter-word;
