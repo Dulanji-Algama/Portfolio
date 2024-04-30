@@ -246,11 +246,13 @@ body{
 #projects{
     height: 90vh;
     width: 1290px;
-    margin-top: 100px;
+    margin-top: -20px;
+    background-image: linear-gradient(#caf0f8,rgb(255, 255, 255));
+
 }
 .con3{
-    background-image: linear-gradient(to right,rgb(255, 255, 255),#caf0f8);
-    margin-top: 20px;
+    /* background-image: linear-gradient(180deg,rgb(169, 225, 241),lightblue); */
+    padding-top: 40px;
 }
 
 .projects-h2{
@@ -271,15 +273,19 @@ body{
 
 }
 
+
 .p1-img{
+    position: relative;
     width: 300px;
     border-radius: 20px;
     border: none;
+    left: 20px;
     box-shadow: 1px 1px 3px 2px gray;
 
 }
 .p1-h2{
-        font-weight: 400;
+    position: relative;
+        font-weight: 800;
         color: #00527e;
         font-size: 25px;   
         margin: 5px;
@@ -287,18 +293,19 @@ body{
 
 
 .p1-p{
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
     text-justify: inter-word;
-    margin: 20px 0;
+    line-height: 4vh;
+    font-family: "Inconsolata", monospace;
+    margin: 20px 120px 20px 2px;
 }
-.project-b{
-    padding: 10px 24px;
-    border-radius: 50px;
-    background-color: rgb(2, 52, 114) ;
-    /* background-image: linear-gradient(rgb(2, 52, 114),rgb(56, 130, 234)); */
-    color: white;
-    border: none;
+.pro-link{
+    font-size: 14px;
+    color: rgb(149, 156, 168) ;
+    font-family: "Inconsolata", monospace;
+
+
 }
 /* contact */
 .con4{
