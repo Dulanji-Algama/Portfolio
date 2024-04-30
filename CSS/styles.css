@@ -113,12 +113,24 @@ body{
 /* about heading */
 .about-h2{
     position: relative;
-    top: 50px;
-    font-size: 40px;   
-    padding: 0 0 0 40px; 
+    font-weight: 600;
+    color: #00527e;
+    font-size: 35px;   
+    margin: 100px 50px 5px 20px;
+    padding-top: 80px;
 }
+.pro-a{
+    border: none;
+    margin: 20px 50px 0 20px;
+    height: 5px;
+    background-color: #00527e;
+    border-radius: 10px;
+    width: 60px;
+
+} 
+
  #about{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100vh;
     width: 1260px;
     text-align: left;
@@ -304,12 +316,12 @@ body{
 
 }
 
-
-/* contact */
 .con4{
     height: 90vh;
     width: 1290px;
     margin-top: 50px;
+
+
 }
 
 /* contact */
